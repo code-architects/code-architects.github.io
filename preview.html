@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myapp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./favicon.ico">
+    <title>Code Architects</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="https://code.angularjs.org/1.8.0/angular.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="./index.html"><i class="fa fa-home"></i> Home</a></li>
+            <li><a href="#recenttitle"><i class="fa fa-lightbulb-o"></i> Preview</a></li>
+        </ul>
+    </nav>
+
+    <div class="searchmodal" ng-controller="myappController">
+        <div class="retitle" id="recenttitle">
+            <h1 class="title">LinkTree of preview</h1>
+        </div>
+        <input type="text" placeholder="&#xf002; Search" ng-model="search" />
+        <ul>
+            <li ng-repeat="previewlist in previewlists | orderBy: 'name' | filter: search">
+                <a href="{{previewlist.src}}" target="_blank">
+                    {{previewlist.name}}
+                </a>
+            </li>
+        </ul>
+    </div>
+
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="icons">
+            <a href="https://www.youtube.com/channel/UCSCMabxk13HlVU-7pahvGyg" target="_blank"><i
+                    class="fa fa-youtube-play fa-fw"></i></a>
+            <a href="https://www.instagram.com/code.architects" target="_blank"><i
+                    class=" fa fa-fw fa-instagram"></i></a>
+            <a href="https://github.com/code-architects" target="_blank"><i class="fa fa-fw fa-github"></i></a>
+        </div>
+        <div class="copyright">#codearchitects</div>
+    </div>
+    <!-- end footer -->
+
+    <!-- fixed elements -->
+    <div class="bigcircle"></div>
+    <button class="scrolltop" onclick="scrolltotop()">
+        <i class="fa fa-angle-up fa-fw"></i>
+    </button>
+    <div class="cursor"></div>
+    <!-- end fixed elements -->
+    <script src="./scripts/postlist.js"></script>
+    <script src="./scripts/mousecursor.js"></script>
+</body>
+
+</html>
