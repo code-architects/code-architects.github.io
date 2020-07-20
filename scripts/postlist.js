@@ -121,6 +121,11 @@ myapp.controller('myappController', ['$scope', function ($scope) {
             name: "3D Cube",
             src: "https://code-architects.github.io/3d-cube/",
             lang: "CSS"
+        },
+        {
+            name: "Typewriter Effect plugin",
+            src: "https://code-architects.github.io/typewriter-effect-plugin/",
+            lang: "JS"
         }
     ];
 }]);
