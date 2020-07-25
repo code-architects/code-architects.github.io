@@ -126,6 +126,11 @@ myapp.controller('myappController', ['$scope', function ($scope) {
             name: "Typewriter Effect plugin",
             src: "https://code-architects.github.io/typewriter-effect-plugin/",
             lang: "JS"
+        },
+        {
+            name: "Generate random HEX color",
+            src: "https://code-architects.github.io/generate-random-hex-color/",
+            lang: "JS"
         }
     ];
 }]);
