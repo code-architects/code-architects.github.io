@@ -131,6 +131,11 @@ myapp.controller('myappController', ['$scope', function ($scope) {
             name: "Generate random HEX color",
             src: "https://code-architects.github.io/generate-random-hex-color/",
             lang: "JS"
+        },
+        {
+            name: "Stretch Text",
+            src: "https://code-architects.github.io/stretch-text/",
+            lang: "CSS"
         }
     ];
 }]);
