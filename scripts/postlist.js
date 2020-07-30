@@ -136,6 +136,11 @@ myapp.controller('myappController', ['$scope', function ($scope) {
             name: "Stretch Text",
             src: "https://code-architects.github.io/stretch-text/",
             lang: "CSS"
+        },
+        {
+            name: "Rock, Paper & Scissors",
+            src: "https://code-architects.github.io/Rock-Paper-Scissors/",
+            lang: "JS"
         }
     ];
 }]);
