@@ -141,6 +141,11 @@ myapp.controller('myappController', ['$scope', function ($scope) {
             name: "Rock, Paper & Scissors",
             src: "https://code-architects.github.io/Rock-Paper-Scissors/",
             lang: "JS"
+        },
+        {
+            name: "404 Page not found",
+            src: "https://code-architects.github.io/404-page-not-found/",
+            lang: "CSS"
         }
     ];
 }]);
