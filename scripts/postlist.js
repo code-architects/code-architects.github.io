@@ -146,6 +146,11 @@ myapp.controller('myappController', ['$scope', function ($scope) {
             name: "404 Page not found",
             src: "https://code-architects.github.io/404-page-not-found/",
             lang: "CSS"
+        },
+        {
+            name: "Text Reflection",
+            src: "https://code-architects.github.io/text-reflection/",
+            lang: "CSS"
         }
     ];
 }]);
