@@ -151,6 +151,11 @@ myapp.controller('myappController', ['$scope', function ($scope) {
             name: "Text Reflection",
             src: "https://code-architects.github.io/text-reflection/",
             lang: "CSS"
+        },
+        {
+            name: "Stopwatch",
+            src: "https://code-architects.github.io/stopwatch/",
+            lang: "JS"
         }
     ];
 }]);
