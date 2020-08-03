@@ -1,1 +1,3 @@
-# code-architects.github.io
+# Code Architects
+
+Information & Tips with beautiful code snippets. 🌈
