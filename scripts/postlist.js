@@ -156,6 +156,11 @@ myapp.controller('myappController', ['$scope', function ($scope) {
             name: "Stopwatch",
             src: "https://code-architects.github.io/stopwatch/",
             lang: "JS"
+        },
+        {
+            name: "To Do List",
+            src: "https://code-architects.github.io/To-Do-list/",
+            lang: "JS"
         }
     ];
 }]);
