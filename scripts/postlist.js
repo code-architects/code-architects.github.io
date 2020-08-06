@@ -161,6 +161,11 @@ myapp.controller('myappController', ['$scope', function ($scope) {
             name: "To Do List",
             src: "https://code-architects.github.io/To-Do-list/",
             lang: "JS"
+        },
+        {
+            name: "Text Flip",
+            src: "https://code-architects.github.io/text-flip",
+            lang: "CSS"
         }
     ];
 }]);
