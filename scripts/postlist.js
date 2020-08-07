@@ -166,6 +166,11 @@ myapp.controller('myappController', ['$scope', function ($scope) {
             name: "Text Flip",
             src: "https://code-architects.github.io/text-flip",
             lang: "CSS"
+        },
+        {
+            name: "Shrink Navbar on Scroll",
+            src: "https://code-architects.github.io/Shrink-Navbar-on-Scroll/",
+            lang: "CSS JS"
         }
     ];
 }]);
