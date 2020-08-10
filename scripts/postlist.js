@@ -171,6 +171,16 @@ myapp.controller('myappController', ['$scope', function ($scope) {
             name: "Shrink Navbar on Scroll",
             src: "https://code-architects.github.io/Shrink-Navbar-on-Scroll/",
             lang: "CSS JS"
+        },
+        {
+            name: "Neon Button",
+            src: "https://code-architects.github.io/neon-button/",
+            lang: "CSS"
+        },
+        {
+            name: "Float Input label",
+            src: "https://code-architects.github.io/float-input-label/",
+            lang: "CSS"
         }
     ];
 }]);
