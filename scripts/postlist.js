@@ -181,6 +181,16 @@ myapp.controller('myappController', ['$scope', function ($scope) {
             name: "Float Input label",
             src: "https://code-architects.github.io/float-input-label/",
             lang: "CSS"
+        },
+        {
+            name: "Skew Border",
+            src: "https://code-architects.github.io/skew-header/",
+            lang: "CSS"
+        },
+        {
+            name: "Simple Navbar",
+            src: "https://code-architects.github.io/simple-navbar/",
+            lang: "CSS"
         }
     ];
 }]);
