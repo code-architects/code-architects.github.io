@@ -191,6 +191,11 @@ myapp.controller('myappController', ['$scope', function ($scope) {
             name: "Simple Navbar",
             src: "https://code-architects.github.io/simple-navbar/",
             lang: "CSS"
+        },
+        {
+            name: "Button Notification Badge",
+            src: "https://code-architects.github.io/button-notfication-badge/",
+            lang: "CSS"   
         }
     ];
 }]);
