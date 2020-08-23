@@ -201,6 +201,11 @@ myapp.controller('myappController', ['$scope', function ($scope) {
             name: "Simple Profile Card",
             src: "https://code-architects.github.io/simple-profile-card/",
             lang: "CSS"   
+        },
+        {
+            name: "Social Media Buttons",
+            src: "https://code-architects.github.io/social-media-buttons/",
+            lang: "CSS"
         }
     ];
 }]);
