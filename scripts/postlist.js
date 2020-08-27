@@ -211,6 +211,11 @@ myapp.controller('myappController', ['$scope', function ($scope) {
             name: "Animate Element on Scroll",
             src: "https://code-architects.github.io/animate-element-on-scroll/",
             lang: "CSS"
+        },
+        {
+            name: "Video as a Background",
+            src: "https://code-architects.github.io/Video-as-a-Background/",
+            lang: "CSS"
         }
     ];
 }]);
