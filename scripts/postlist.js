@@ -216,6 +216,11 @@ myapp.controller('myappController', ['$scope', function ($scope) {
             name: "Video as a Background",
             src: "https://code-architects.github.io/Video-as-a-Background/",
             lang: "CSS"
+        },
+        {
+            name: "Video Full Screen",
+            src: "https://code-architects.github.io/Video-full-screen/",
+            lang: "JS"
         }
     ];
 }]);
