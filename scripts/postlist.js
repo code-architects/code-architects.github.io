@@ -221,6 +221,11 @@ myapp.controller('myappController', ['$scope', function ($scope) {
             name: "Video Full Screen",
             src: "https://code-architects.github.io/Video-full-screen/",
             lang: "JS"
+        },
+        {
+            name: "Chuck Norries Jokes Generator",
+            src: "https://code-architects.github.io/chuck-norris-joke-generator/",
+            lang: "JS"
         }
     ];
 }]);
