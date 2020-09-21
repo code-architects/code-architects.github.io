@@ -226,6 +226,11 @@ myapp.controller('myappController', ['$scope', function ($scope) {
             name: "Chuck Norries Jokes Generator",
             src: "https://code-architects.github.io/chuck-norris-joke-generator/",
             lang: "JS"
+        },
+        {
+            name: "Dot Loader",
+            src: "https://code-architects.github.io/dot-loader/",
+            lang: "CSS"
         }
     ];
 }]);
