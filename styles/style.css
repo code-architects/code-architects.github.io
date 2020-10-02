@@ -172,6 +172,16 @@ body {
 	justify-content: center;
 	flex-direction: column;
 }
+.profilepic {
+	width: 150px;
+	height: 150px;
+	margin-bottom: 20px;
+	border-radius: 50%;
+	transition: 0.12s
+}
+.profilepic:hover {
+	border: 5px solid #ff556c;
+}
 .titlecontainer h1{
 	font-weight: 600;
 	font-size: 3em;
