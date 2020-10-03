@@ -231,6 +231,11 @@ myapp.controller('myappController', ['$scope', function ($scope) {
             name: "Dot Loader",
             src: "https://code-architects.github.io/dot-loader/",
             lang: "CSS"
+        },
+        {
+            name: "Infinite Scrolling",
+            src: "https://code-architects.github.io/infinite-scrolling/",
+            lang: "JS"
         }
     ];
 }]);
