@@ -236,6 +236,11 @@ myapp.controller('myappController', ['$scope', function ($scope) {
             name: "Infinite Scrolling",
             src: "https://code-architects.github.io/infinite-scrolling/",
             lang: "JS"
+        },
+        {
+            name: "TinyMCE Plugin",
+            src: "https://code-architects.github.io/tinymce-editor/",
+            lang: "JS"
         }
     ];
 }]);
