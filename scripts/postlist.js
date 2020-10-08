@@ -241,6 +241,11 @@ myapp.controller('myappController', ['$scope', function ($scope) {
             name: "TinyMCE Plugin",
             src: "https://code-architects.github.io/tinymce-editor/",
             lang: "JS"
+        },
+        {
+            name: "Image Special Effect",
+            src: "https://code-architects.github.io/image-special-effect/",
+            lang: "CSS"
         }
     ];
 }]);
