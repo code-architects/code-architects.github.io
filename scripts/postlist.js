@@ -246,6 +246,11 @@ myapp.controller('myappController', ['$scope', function ($scope) {
             name: "Image Special Effect",
             src: "https://code-architects.github.io/image-special-effect/",
             lang: "CSS"
+        },
+        {
+            name: "Copy text to clip board",
+            src: "https://code-architects.github.io/copy-text-to-clipboard/",
+            lang: "CSS"
         }
     ];
 }]);
