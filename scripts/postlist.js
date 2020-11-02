@@ -251,6 +251,11 @@ myapp.controller('myappController', ['$scope', function ($scope) {
             name: "Copy text to clip board",
             src: "https://code-architects.github.io/copy-text-to-clipboard/",
             lang: "CSS"
+        },
+        {
+            name: "Google UI Clone",
+            src: "https://code-architects.github.io/google-clone/",
+            lang: "CSS"
         }
     ];
 }]);
