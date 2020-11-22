@@ -256,6 +256,11 @@ myapp.controller('myappController', ['$scope', function ($scope) {
             name: "Google UI Clone",
             src: "https://code-architects.github.io/google-clone/",
             lang: "CSS"
+        },
+        {
+            name: "CSS Cursor",
+            src: "https://code-architects.github.io/css-cursor/",
+            lang: "CSS"
         }
     ];
 }]);
