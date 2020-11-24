@@ -261,6 +261,11 @@ myapp.controller('myappController', ['$scope', function ($scope) {
             name: "CSS Cursor",
             src: "https://code-architects.github.io/css-cursor/",
             lang: "CSS"
+        },
+        {
+            name: "Custom Emoji CSS Cursor",
+            src: "https://code-architects.github.io/custom-emoji-css-cursor/",
+            lang: "CSS"
         }
     ];
 }]);
