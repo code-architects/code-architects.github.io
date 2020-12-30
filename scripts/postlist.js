@@ -271,6 +271,16 @@ myapp.controller('myappController', ['$scope', function ($scope) {
             name: "Photo Grid",
             src: "https://code-architects.github.io/photo-grid/",
             lang: "CSS"
+        },
+        {
+            name: "Glitch Text",
+            src: "https://code-architects.github.io/glitch-text/",
+            lang: "CSS"
+        },
+        {
+            name: "Digital Clock",
+            src: "https://code-architects.github.io/digital-clock/",
+            lang: "JS"
         }
     ];
 }]);
