@@ -281,6 +281,11 @@ myapp.controller('myappController', ['$scope', function ($scope) {
             name: "Digital Clock",
             src: "https://code-architects.github.io/digital-clock/",
             lang: "JS"
+        },
+        {
+            name: "Glassmorphism Profile Card",
+            src: "https://code-architects.github.io/glassmorphism-profile-card/",
+            lang: "CSS"
         }
     ];
 }]);
