@@ -286,6 +286,11 @@ myapp.controller('myappController', ['$scope', function ($scope) {
             name: "Glassmorphism Profile Card",
             src: "https://code-architects.github.io/glassmorphism-profile-card/",
             lang: "CSS"
+        },
+        {
+            name: "Card Flip",
+            src: "https://code-architects.github.io/flip-card/",
+            lang: "CSS"
         }
     ];
 }]);
