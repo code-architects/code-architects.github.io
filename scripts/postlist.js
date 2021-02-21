@@ -291,6 +291,16 @@ myapp.controller('myappController', ['$scope', function ($scope) {
             name: "Card Flip",
             src: "https://code-architects.github.io/flip-card/",
             lang: "CSS"
+        },
+        {
+            name: "Button hover effects",
+            src: "https://code-architects.github.io/button-hover-effects/",
+            lang: "CSS JS"
+        },
+        {
+            name: "Unit Converter",
+            src: "https://code-architects.github.io/unit-converter/",
+            lang: "CSS JS"
         }
     ];
 }]);
