@@ -301,6 +301,36 @@ myapp.controller('myappController', ['$scope', function ($scope) {
             name: "Unit Converter",
             src: "https://code-architects.github.io/unit-converter/",
             lang: "CSS JS"
-        }
+        },
+        {
+            name: "Animated Progress Bar",
+            src: "https://code-architects.github.io/animated-progress-bar/",
+            lang: "CSS"
+        },
+        {
+            name: "Toggle Button",
+            src: "https://code-architects.github.io/toggle-button/",
+            lang: "CSS"
+        },
+        {
+            name: "Social Media Icons",
+            src: "https://code-architects.github.io/social-media-icons/",
+            lang: "CSS"
+        },
+        {
+            name: "Vertical Navigation Bar",
+            src: "https://code-architects.github.io/vertical-navigation-bar/",
+            lang: "CSS" 
+        },
+        {
+            name: "Parallax Image",
+            src: "https://code-architects.github.io/parallax-effect/",
+            lang: "CSS"
+        },
+        {
+            name: "3d Pie Chart",
+            src: "https://code-architects.github.io/3d-Pie-Chart/",
+            lang: "JS"
+        }    
     ];
 }]);
