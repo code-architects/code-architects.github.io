@@ -331,6 +331,11 @@ myapp.controller('myappController', ['$scope', function ($scope) {
             name: "3d Pie Chart",
             src: "https://code-architects.github.io/3d-Pie-Chart/",
             lang: "JS"
-        }    
+        },
+        {
+            name: "Profile Cards with Animaitons",
+            src: "https://code-architects.github.io/profile-card-with-animations/",
+            lang: "CSS"
+        }
     ];
 }]);
