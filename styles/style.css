@@ -419,6 +419,7 @@ body {
 }
 .ind {
   margin-top: 50px;
+  padding: 20px;
 }
 .retitle .title {
   display: inline-block;
